@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/*BOX 1: navbar*/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+
+/*BOX 2: nav-loaction border */
+
+.location-icon{
+    display: flex;
+}
+.loc{
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-left: 12px;
+}
+.country{
+    color:#ffffff;
+    font-size: 1rem; /*rem isliye kyuki agar apan screen kis ize ko chota bda kre toh text uske according set ho jaye */
+    margin-left: 4px;
+}
+
+
+/*BOX 3: nav-search */
+
+.nav-search{
+    display: flex; /* box ke ander ke elements ko ek line mein lane ke liye */
+    background-color:#f011ff;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.s-select{
+    background-color: #f3f3f3;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; /*select ka jo border diya hua hota h usko htane ke liye */
+}
+.s-input{
+    width: 100%; /*iska mtlb ye h ki jitna bhi khali bacha hua area h na vo sara ki sara search bar acquire krle */
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color: rgba(220, 120, 5, 0.897);
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    border: none;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+
+/*BOX 4: nav-signin border*/
+
+span{
+    font-size: 0.75rem;
+    margin-left: 5px;;
+}
+.si-select{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    background-color: #0f1111;
+    border: none;
+}
+
+/*BOX 5 : nav-return*/
+
+/*span is same as upper box */
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* BOX 6:nav-cart border */
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{  /* nav-cart class ke icon ki size ko chota-bda krne ke liye */
+    font-size: 30px;
+}
+
+
+/* PANEL */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.panel-ops a{
+    color:white;
+    text-decoration: none;
+    margin-left: 18px;
+    
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.panel-all{
+    justify-content: left;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+
+}
+
+/* SHOP SECTION */
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap; /* sirf 4 boxes ko ek line mein lane ke liye */
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 12px;
+}
+.content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1-img{
+    background-image: url("box1_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box2-img{
+    background-image: url("box2_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box3-img{
+    background-image: url("box3_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box4-img{
+    background-image: url("box4_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box5-img{
+    background-image: url("box5_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box6-img{
+    background-image: url("box6_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box7-img{
+    background-image: url("box7_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+.box8{
+    background-image: url("box8_image.jpg");
+    height: 320px;
+    background-size: cover;   
+}
+
+.content p{
+    color: #007185;
+}
+
+
+/*Footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: #dddddd;
+}
+.foot-panel2 p{
+    margin-top: 40px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;   
+}
+.pages{
+    padding-top: 2px;
+}
